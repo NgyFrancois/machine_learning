@@ -1,0 +1,11 @@
+dataset : https://www.kaggle.com/datasets/einsteindata4u/covid19
+
+
+Objectif : Prédire si une personne est inféctée en fonction des données clinique disponibles
+FP = False positive, TP = True Positive, FN = False Negative, TN = True Negative
+- Precision = (TP / (TP+FP))  -> permet de réduire au maximum le taux de Faux Positifs 
+- Recall = (TP / (TP+FN))  -> permet de réduire au maximum le taux de Faux Negatifs
+- F1 = 2 * (precision * recall) / (precision + recall)
+=> Recall -> 50% et F1 -> 50%
+
+https://www.youtube.com/watch?v=82KLS2C_gNQ&list=PLO_fdPEVlfKqMDNmCFzQISI2H_nJcEDJq&index=1
